@@ -36,5 +36,11 @@ public class Person {
 
         return (int) (day/365);
     }
+
+    @Override
+    public String toString() {
+        return "Person{" + "name=" + name + ", birthday=" + birthday + '}';
+    }
+    
     
 }
